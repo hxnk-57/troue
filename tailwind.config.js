@@ -1,9 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: ["./src/*.html"],
+  content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        'huge': '5rem',
+      },
+      fontFamily: {
+        custom: ['"Great Vibes"', 'cursive'],
+      },
+      colors: {
+        'old-gold' : '#D49D08'
+      },
+    },
   },
   plugins: [],
 }
-
